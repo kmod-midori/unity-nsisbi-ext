@@ -1,0 +1,15 @@
+[package]
+name = "nsisbi-ext"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.7", features = ["derive"] }
+env_logger = "0.11.3"
+log = "0.4.21"
+lzma-rs = "0.3.0"
+memmap = "0.7.0"
+memmem = "0.1.1"
+regex = "1.10.5"
+scroll = { version = "0.12.0", features = ["derive"] }
